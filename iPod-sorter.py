@@ -1,6 +1,15 @@
 
 '''
-f u c k
+Script to alphabetize randomly named songs, off an old iPod.
+For some reason filenames on the iPod (the one I tested anyways, ~2010 nano)
+were just random 4 letter strings, but artist/ album/ other metadata was
+still present. And then they were further jumbled by placing files in folders 
+"F00" through "F50" and so on. So this script goes through those folders,
+and moves files to different directories labeled A-Z
+
+Derek Snyder
+1/18/2018
+
 '''
 
 import os, tinytag, shutil
